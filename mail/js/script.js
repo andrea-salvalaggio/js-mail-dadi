@@ -14,10 +14,10 @@ for (let index = 0; index < emailList.length; index++) {
 
     if (emailList[index] === UserEmail) {
         validEmail = true;
-        console.log('Email presente');
     } else {
-        console.log('Email non presente');
+        validEmail = false;
     }
 }
 
+console.log(validEmail);
 console.log(emailList);
