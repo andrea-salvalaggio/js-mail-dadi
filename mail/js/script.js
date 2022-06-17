@@ -16,12 +16,12 @@ for (let index = 0; index < emailList.length; index++) {
         validEmail = true;
     }
 
-    if (validEmail = true) {
-        console.log('Email presente');
-    } else {
-        console.log('Email non presente');
-    }
+}
 
+if (validEmail == true) {
+    console.log('Email presente');
+} else {
+    console.log('Email non presente');
 }
 
 console.log(validEmail);
