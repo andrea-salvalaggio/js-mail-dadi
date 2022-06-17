@@ -18,7 +18,7 @@ for (let index = 0; index < emailList.length; index++) {
 
 }
 
-if (validEmail == true) {
+if (validEmail === true) {
     console.log('Email presente');
 } else {
     console.log('Email non presente');
